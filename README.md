@@ -5,6 +5,14 @@
 ## usage
 
 ```js
+sleep(time)
+```
+
+time - millisecond number, or '1s' which https://www.npmjs.com/package/ms support
+
+## example
+
+```js
   it('should sleep', function * () {
     var start = new Date();
     yield sleep(30);
