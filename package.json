@@ -1,6 +1,6 @@
 {
   "name": "ko-sleep",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a promise just sleep Zzzz...",
   "main": "index.js",
   "scripts": {
