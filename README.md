@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/alsotang/ko-sleep.svg)](https://travis-ci.org/alsotang/ko-sleep)
 
+A promise wrapper for `setTimeout`
+
 ## usage
 
 ```js
