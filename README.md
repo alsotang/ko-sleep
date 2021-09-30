@@ -5,7 +5,7 @@
 ## usage
 
 ```js
-sleep(time)
+sleep(time: number | string): Promise<void>
 ```
 
 time - millisecond number, or '1s' which https://www.npmjs.com/package/ms support
@@ -13,11 +13,10 @@ time - millisecond number, or '1s' which https://www.npmjs.com/package/ms suppor
 ## example
 
 ```js
-  it('should sleep', function * () {
-    var start = new Date();
-    yield sleep(30);
-    (new Date - start).should.aboveOrEqual(30)
-  })
+import sleep from 'ko-sleep'
+
+await sleep(3 * 1000)
+await sleep('3s')
 ```
 
 ## license
