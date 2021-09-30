@@ -1,6 +1,6 @@
 {
   "name": "ko-sleep",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A promise wrapper for `setTimeout`",
   "main": "./dist/sleep.js",
   "scripts": {
@@ -15,6 +15,9 @@
   "keywords": [
     "promise",
     "sleep"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "alsotang <alsotang@gmail.com>",
   "license": "MIT",
